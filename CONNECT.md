@@ -4,7 +4,19 @@ If Codex says `Permission denied (publickey)`, the environment is reachable, but
 
 ## Fastest fix for `Permission denied (publickey)`
 
-Run on this machine:
+### 1) Check whether a key already exists
+
+```bash
+ls -la ~/.ssh
+```
+
+- If you already have `~/.ssh/id_ed25519.pub`, print it with:
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+### 2) If no key exists, create one and print it
 
 ```bash
 mkdir -p ~/.ssh
@@ -13,17 +25,17 @@ ssh-keygen -t ed25519 -C "your_github_email@example.com"
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Then add the printed key in GitHub:
+### 3) Add the key in GitHub
 
 - **GitHub** → **Settings** → **SSH and GPG keys** → **New SSH key**
 
-Test auth:
+### 4) Test SSH auth
 
 ```bash
 ssh -T git@github.com
 ```
 
-Expected success message includes:
+Expected success output includes:
 
 - `Hi <username>! You've successfully authenticated...`
 
@@ -46,6 +58,7 @@ Paste these outputs (redact secrets):
 git remote -v
 ssh -T git@github.com
 ls -la ~/.ssh
+cat ~/.ssh/id_ed25519.pub
 ```
 
 Also include the exact Codex error text and what action triggered it (clone/pull/push/open repo).
