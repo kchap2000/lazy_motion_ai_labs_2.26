@@ -8,8 +8,9 @@ type HeroMediaProps = {
 
 export default function HeroMedia({ project }: HeroMediaProps) {
   const isYoutube = project.heroMediaType === "video" && project.heroMediaUrl.includes("youtube.com/embed");
+  const isVimeo = project.heroMediaType === "video" && project.heroMediaUrl.includes("player.vimeo.com/video/");
 
-  if (isYoutube) {
+  if (isYoutube || isVimeo) {
     return (
       <div className="relative aspect-video overflow-hidden rounded-2xl border border-white/10 bg-black">
         <iframe

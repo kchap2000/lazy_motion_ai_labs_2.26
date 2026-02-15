@@ -11,6 +11,14 @@ type ProjectCardProps = {
 export default function ProjectCard({ project, large = false }: ProjectCardProps) {
   const hasThumbnail = Boolean(project.thumbnailImage && project.thumbnailImage.trim().length > 0);
   const useVideoFallback = !hasThumbnail && project.heroMediaType === "video";
+
+  const youtubeMatch = project.heroMediaUrl.match(/youtube\.com\/embed\/([^?&/]+)/);
+  const vimeoMatch = project.heroMediaUrl.match(/player\.vimeo\.com\/video\/([^?&/]+)/);
+
+  const fallbackImage =
+    youtubeMatch?.[1] ? `https://img.youtube.com/vi/${youtubeMatch[1]}/hqdefault.jpg` : vimeoMatch?.[1] ? `https://vumbnail.com/${vimeoMatch[1]}.jpg` : null;
+
+  const useFallbackImage = !hasThumbnail && Boolean(fallbackImage);
   const videoPreviewSrc = `${project.heroMediaUrl}#t=0.1`;
 
   return (
@@ -24,6 +32,15 @@ export default function ProjectCard({ project, large = false }: ProjectCardProps
               fill
               sizes={large ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 33vw"}
               className="object-cover transition duration-500 group-hover:scale-[1.03]"
+            />
+          ) : useFallbackImage ? (
+            <Image
+              src={fallbackImage as string}
+              alt={project.title}
+              fill
+              sizes={large ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 33vw"}
+              className="object-cover transition duration-500 group-hover:scale-[1.03]"
+              unoptimized
             />
           ) : useVideoFallback ? (
             <video

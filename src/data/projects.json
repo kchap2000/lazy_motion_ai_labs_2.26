@@ -9,7 +9,7 @@
     "year": 2026,
     "thumbnailImage": "/projects/outgrow-your-world-thumb.png",
     "heroMediaType": "video",
-    "heroMediaUrl": "/videos/outgrow-your-world-i-never-told-you-my-feet-hurt.mp4",
+    "heroMediaUrl": "https://www.youtube.com/embed/FMWSpNtMCgo",
     "shortDescription": "Proof-of-concept narrative advertising built on a \"based on a true story\" model.",
     "longDescription": "Concept Overview: \"Based on a True Story\" Narrative Advertising Model\n\nThis project was developed as a proof-of-concept for a deeper form of advertising, one that moves beyond traditional commercial structure and into cinematic narrative storytelling.\n\nThe framework is built around a \"based on a true story\" model.\n\nFor this piece, the character was inspired by the life arc of Shaquille O'Neal. The story pulls from publicly known elements of his journey, early adversity, relentless work ethic, development through high school and LSU, and the eventual rise to professional success.\n\nThe objective was not to recreate an exact likeness, but to demonstrate how real-life narratives can be structured into emotionally driven, documentary-style concept ads.\n\nThis was not a quick process.\n\nIt required:\n\n- Research into biographical elements\n- Musical structuring to establish emotional pacing\n- Storyboarding to narrative beats\n- Iterative generation and refinement of visual sequences\n- Assembly into a cohesive timeline\n\nThe project was executed on a minimal budget, in between other active productions, primarily to demonstrate possibility.\n\nWhat this represents is the floor, not the ceiling.\n\nWith:\n\n- A small, focused creative team\n- Locked script development\n- Dedicated editing and sound design\n- Licensed likeness rights\n- A defined production timeline and budget\n\nThis model can evolve into:\n\n- High-end biographical concept trailers\n- Brand campaigns rooted in real founder stories\n- Legacy storytelling pieces for athletes and public figures\n- Deeply personalized documentary-style advertising\n- Historical recreations with emotional weight\n\nThe pace of generative tools is accelerating rapidly. Every few months, the realism and control improve significantly. That means the scalability of this model increases over time.\n\nThis project demonstrates that narrative-driven, emotionally resonant concept advertising can now be developed with a level of speed and flexibility that was previously inaccessible.",
     "tools": ["Creative Direction", "AI Video Pipeline", "Post Production"],
@@ -19,7 +19,7 @@
       "/projects/neon-pulse-frame-3.svg"
     ],
     "links": [
-      { "label": "Watch", "url": "/videos/outgrow-your-world-i-never-told-you-my-feet-hurt.mp4" }
+      { "label": "Watch", "url": "https://youtu.be/FMWSpNtMCgo" }
     ],
     "featured": true,
     "quickFacts": {
@@ -181,7 +181,7 @@
     "tags": ["Music Video", "Original Work", "Cinematic"],
     "year": 2026,
     "heroMediaType": "video",
-    "heroMediaUrl": "/videos/gotta-be-a-place-part-1.mp4",
+    "heroMediaUrl": "https://player.vimeo.com/video/1134315019",
     "shortDescription": "Music video sample built for cinematic mood, pacing, and emotional continuity.",
     "longDescription": "Part 1 sample for the \"Gotta Be a Place\" music video concept.\n\nThis project is published as the second live video on the portfolio and is ready for updated thumbnail, full breakdown copy, and final links.",
     "tools": ["Creative Direction", "AI Video Pipeline", "Post Production"],
@@ -190,7 +190,7 @@
       "/projects/founders-frame-2.svg",
       "/projects/founders-frame-3.svg"
     ],
-    "links": [{ "label": "Watch", "url": "/videos/gotta-be-a-place-part-1.mp4" }],
+    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134315019" }],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
@@ -207,12 +207,12 @@
     "tags": ["Client Work", "Music Video", "Likeness Project"],
     "year": 2025,
     "heroMediaType": "video",
-    "heroMediaUrl": "/videos/the-kevin-edmonds-music-video-project-v1.mp4",
+    "heroMediaUrl": "https://player.vimeo.com/video/1134311666",
     "shortDescription": "Client music video project from mid-2025 focused on early AI realism and character consistency.",
     "longDescription": "This project was created in June and July of 2025 for a client who reached out and asked me to produce a music video using their likeness.\n\nIt represents a snapshot of where my AI video skills and the available technology were at that time.\n\nThe main challenges were maintaining character consistency and achieving realism, both of which were just starting to become possible with AI tools back then.",
     "tools": ["AI Video Pipeline", "Creative Direction", "Post Production"],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "/videos/the-kevin-edmonds-music-video-project-v1.mp4" }],
+    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134311666" }],
     "featured": true,
     "quickFacts": {
       "role": "Director + Prompt Engineer",
@@ -229,12 +229,12 @@
     "tags": ["Music Video", "R&D", "Lip Sync"],
     "year": 2025,
     "heroMediaType": "video",
-    "heroMediaUrl": "/videos/the-last-of-my-kind-music-video-short-v1.mp4",
+    "heroMediaUrl": "https://player.vimeo.com/video/1134309592",
     "shortDescription": "September 2025 creative test focused on first/last frame control, lip-sync, and consistent AI character storytelling.",
     "longDescription": "This music video sample was created in September 2025 as a creative test of emerging AI video tools.\n\nThe focus was on exploring first and last frame generation, improving lip-sync performance, and experimenting with storytelling through consistent AI characters.\n\nIt served as both a technical study and a creative experiment to see how these features could be used to bring emotion and realism into AI-driven music videos.",
     "tools": ["AI Video Pipeline", "Lip-Sync Workflow", "Creative Direction"],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "/videos/the-last-of-my-kind-music-video-short-v1.mp4" }],
+    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134309592" }],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
@@ -251,12 +251,12 @@
     "tags": ["Music Video", "In Progress", "Description Pending"],
     "year": 2026,
     "heroMediaType": "video",
-    "heroMediaUrl": "/videos/maiden-voyage-prequel-finalish-v1.mp4",
+    "heroMediaUrl": "https://player.vimeo.com/video/1134303800",
     "shortDescription": "Description pending: add final project summary.",
     "longDescription": "Description note: final project description still needs to be written.\n\nTODO: Add full narrative overview, production context, and key creative/technical learnings.",
     "tools": ["AI Video Pipeline", "Creative Direction", "Post Production"],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "/videos/maiden-voyage-prequel-finalish-v1.mp4" }],
+    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134303800" }],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
@@ -273,12 +273,12 @@
     "tags": ["Work in Progress", "Sora 2", "Veo 3.1"],
     "year": 2026,
     "heroMediaType": "video",
-    "heroMediaUrl": "/videos/act-2-maiden-voyage-prequel-teaser-v1.mp4",
+    "heroMediaUrl": "https://player.vimeo.com/video/1134299601",
     "shortDescription": "Current work-in-progress teaser for Maiden Voyage: Act 2 using Sora 2 and Veo 3.1.",
     "longDescription": "This is a current work-in-progress teaser for Maiden Voyage: Act 2.\n\nIt blends some of the newest AI video technologies, including Sora 2 and Veo 3.1, to explore creative techniques and cinematic storytelling.\n\nThis version serves as an experimental mashup to push the boundaries of realism, emotion, and motion in AI video.\n\nThe full project is still in development, with dialogue scenes and expanded storytelling coming soon.",
     "tools": ["Sora 2", "Veo 3.1", "AI Video Pipeline", "Creative Direction"],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "/videos/act-2-maiden-voyage-prequel-teaser-v1.mp4" }],
+    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134299601" }],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
