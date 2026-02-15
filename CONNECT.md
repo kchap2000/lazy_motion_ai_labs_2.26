@@ -25,11 +25,20 @@ ssh-keygen -t ed25519 -C "your_github_email@example.com"
 cat ~/.ssh/id_ed25519.pub
 ```
 
-### 3) Add the key in GitHub
+### 3) Add GitHub host key
 
-- **GitHub** → **Settings** → **SSH and GPG keys** → **New SSH key**
+```bash
+ssh-keyscan github.com >> ~/.ssh/known_hosts
+chmod 600 ~/.ssh/known_hosts
+```
 
-### 4) Test SSH auth
+### 4) Add the key in GitHub
+
+- GitHub avatar -> **Settings** -> **SSH and GPG keys** -> **New SSH key**
+- Paste the full public key line (`ssh-ed25519 ...`)
+- Do not use repo **Deploy keys** for your personal push workflow
+
+### 5) Test SSH auth
 
 ```bash
 ssh -T git@github.com
@@ -38,6 +47,13 @@ ssh -T git@github.com
 Expected success output includes:
 
 - `Hi <username>! You've successfully authenticated...`
+
+### 6) Push this repo
+
+```bash
+cd /Users/khalilchapman/Desktop/lazy-lab-ai-studio
+git push -u origin main
+```
 
 ## If you prefer HTTPS instead of SSH
 
