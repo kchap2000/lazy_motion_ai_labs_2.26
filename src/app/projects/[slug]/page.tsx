@@ -24,15 +24,15 @@ export async function generateMetadata({ params }: ProjectPageParams): Promise<M
 
   if (!project) {
     return {
-      title: "Project Not Found | Lazy Lab AI Studio"
+      title: "Project Not Found | Lazy Motion Labs AI Studio"
     };
   }
 
   return {
-    title: `${project.title} | Lazy Lab AI Studio`,
+    title: `${project.title} | Lazy Motion Labs AI Studio`,
     description: project.shortDescription,
     openGraph: {
-      title: `${project.title} | Lazy Lab AI Studio`,
+      title: `${project.title} | Lazy Motion Labs AI Studio`,
       description: project.shortDescription,
       url: `/projects/${project.slug}`,
       images: [

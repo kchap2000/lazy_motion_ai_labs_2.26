@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import Reveal from "@/components/reveal";
 
 export const metadata: Metadata = {
-  title: "Contact | Lazy Lab AI Studio",
-  description: "Contact Lazy Lab AI Studio for cinematic AI storytelling projects."
+  title: "Contact | Lazy Motion Labs AI Studio",
+  description: "Contact Lazy Motion Labs AI Studio for cinematic AI storytelling projects."
 };
 
 export default function ContactPage() {
@@ -19,16 +19,25 @@ export default function ContactPage() {
       </Reveal>
 
       <Reveal className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-8 md:p-10">
-        <form className="space-y-5">
+        <form action="https://formsubmit.co/khalil@aiforreallife.pro" method="POST" className="space-y-5">
+          <input type="hidden" name="_subject" value="New Inquiry - Lazy Motion Labs AI Studio" />
+          <input type="hidden" name="_captcha" value="false" />
           <div className="grid gap-5 md:grid-cols-2">
             <label className="space-y-2 text-sm text-[color:var(--neutral-300)]">
               <span>Name</span>
-              <input className="w-full rounded-xl border border-white/15 bg-[color:var(--navy-900)] px-4 py-3 text-[color:var(--neutral-50)]" placeholder="Your name" />
+              <input
+                name="name"
+                required
+                className="w-full rounded-xl border border-white/15 bg-[color:var(--navy-900)] px-4 py-3 text-[color:var(--neutral-50)]"
+                placeholder="Your name"
+              />
             </label>
             <label className="space-y-2 text-sm text-[color:var(--neutral-300)]">
               <span>Email</span>
               <input
                 type="email"
+                name="email"
+                required
                 className="w-full rounded-xl border border-white/15 bg-[color:var(--navy-900)] px-4 py-3 text-[color:var(--neutral-50)]"
                 placeholder="you@company.com"
               />
@@ -37,13 +46,15 @@ export default function ContactPage() {
           <label className="space-y-2 text-sm text-[color:var(--neutral-300)]">
             <span>Project brief</span>
             <textarea
+              name="message"
+              required
               rows={6}
               className="w-full rounded-xl border border-white/15 bg-[color:var(--navy-900)] px-4 py-3 text-[color:var(--neutral-50)]"
               placeholder="Tell us the goal, audience, and timeline."
             />
           </label>
           <button
-            type="button"
+            type="submit"
             className="rounded-full bg-[color:var(--coral-500)] px-6 py-3 text-sm font-semibold text-[color:var(--navy-950)] hover:bg-[color:var(--coral-400)]"
           >
             Send Inquiry
@@ -51,7 +62,7 @@ export default function ContactPage() {
         </form>
 
         <div className="mt-8 border-t border-white/10 pt-6 text-sm text-[color:var(--neutral-300)]">
-          <p>Email: hello@lazylabai.studio</p>
+          <p>Email: khalil@aiforreallife.pro</p>
           <p className="mt-2">Based in the US, collaborating globally.</p>
         </div>
       </Reveal>

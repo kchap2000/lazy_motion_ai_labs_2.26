@@ -3,7 +3,7 @@ import type { Project } from "@/types/project";
 
 const projects = projectsJson as Project[];
 
-export const studioName = "Lazy Lab AI Studio";
+export const studioName = "Lazy Motion Labs AI Studio";
 
 function isRenderableProject(project: Project) {
   return project.published && project.heroMediaType === "video" && project.heroMediaUrl.trim().length > 0;

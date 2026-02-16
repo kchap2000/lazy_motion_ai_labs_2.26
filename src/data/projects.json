@@ -1,31 +1,46 @@
 [
   {
     "id": "proj-001",
-    "title": "Outgrow Your World (I Never Told You My Feet Hurt)",
+    "title": "Outgrow The World | Reebok Ai Concept Ad | Nano Banana Pro + Kling + Suno + ElevenLabs",
     "slug": "outgrow-your-world-i-never-told-you-my-feet-hurt",
     "published": true,
     "category": "Music Video",
-    "tags": ["Music Video", "Original Work", "AI for Real Life"],
+    "tags": [
+      "Music Video",
+      "Original Work",
+      "Cinematic"
+    ],
     "year": 2026,
     "thumbnailImage": "/projects/outgrow-your-world-thumb.png",
     "heroMediaType": "video",
     "heroMediaUrl": "https://www.youtube.com/embed/FMWSpNtMCgo",
     "shortDescription": "Proof-of-concept narrative advertising built on a \"based on a true story\" model.",
     "longDescription": "Concept Overview: \"Based on a True Story\" Narrative Advertising Model\n\nThis project was developed as a proof-of-concept for a deeper form of advertising, one that moves beyond traditional commercial structure and into cinematic narrative storytelling.\n\nThe framework is built around a \"based on a true story\" model.\n\nFor this piece, the character was inspired by the life arc of Shaquille O'Neal. The story pulls from publicly known elements of his journey, early adversity, relentless work ethic, development through high school and LSU, and the eventual rise to professional success.\n\nThe objective was not to recreate an exact likeness, but to demonstrate how real-life narratives can be structured into emotionally driven, documentary-style concept ads.\n\nThis was not a quick process.\n\nIt required:\n\n- Research into biographical elements\n- Musical structuring to establish emotional pacing\n- Storyboarding to narrative beats\n- Iterative generation and refinement of visual sequences\n- Assembly into a cohesive timeline\n\nThe project was executed on a minimal budget, in between other active productions, primarily to demonstrate possibility.\n\nWhat this represents is the floor, not the ceiling.\n\nWith:\n\n- A small, focused creative team\n- Locked script development\n- Dedicated editing and sound design\n- Licensed likeness rights\n- A defined production timeline and budget\n\nThis model can evolve into:\n\n- High-end biographical concept trailers\n- Brand campaigns rooted in real founder stories\n- Legacy storytelling pieces for athletes and public figures\n- Deeply personalized documentary-style advertising\n- Historical recreations with emotional weight\n\nThe pace of generative tools is accelerating rapidly. Every few months, the realism and control improve significantly. That means the scalability of this model increases over time.\n\nThis project demonstrates that narrative-driven, emotionally resonant concept advertising can now be developed with a level of speed and flexibility that was previously inaccessible.",
-    "tools": ["Creative Direction", "AI Video Pipeline", "Post Production"],
+    "tools": [
+      "Creative Direction",
+      "AI Video Pipeline",
+      "Post Production"
+    ],
     "gallery": [
       "/projects/neon-pulse-frame-1.svg",
       "/projects/neon-pulse-frame-2.svg",
       "/projects/neon-pulse-frame-3.svg"
     ],
     "links": [
-      { "label": "Watch", "url": "https://youtu.be/FMWSpNtMCgo" }
+      {
+        "label": "Watch",
+        "url": "https://youtu.be/FMWSpNtMCgo"
+      }
     ],
     "featured": true,
     "quickFacts": {
       "role": "Director + Prompt Engineer",
       "timeline": "12 days",
-      "deliverables": ["60s hero cut", "9:16 social cutdowns", "Still frames"]
+      "deliverables": [
+        "60s hero cut",
+        "9:16 social cutdowns",
+        "Still frames"
+      ]
     }
   },
   {
@@ -34,28 +49,47 @@
     "slug": "afterlight-zero",
     "published": false,
     "category": "Trailer",
-    "tags": ["Kling", "Runway", "Nano"],
+    "tags": [
+      "Kling",
+      "Runway",
+      "Nano"
+    ],
     "year": 2025,
     "thumbnailImage": "/projects/afterlight-thumb.svg",
     "heroMediaType": "image",
     "heroMediaUrl": "/projects/afterlight-hero.svg",
     "shortDescription": "A dystopian teaser trailer engineered for story continuity and cinematic escalation.",
     "longDescription": "This trailer project proves short-form AI storytelling can still feel authored. We mapped sequence beats first, then generated every scene to match camera language and emotional trajectory.\n\nThe system was tuned to preserve character identity and spatial logic, even across radically different set pieces.",
-    "tools": ["Kling", "Runway", "Nano", "Premiere Pro"],
+    "tools": [
+      "Kling",
+      "Runway",
+      "Nano",
+      "Premiere Pro"
+    ],
     "gallery": [
       "/projects/afterlight-frame-1.svg",
       "/projects/afterlight-frame-2.svg",
       "/projects/afterlight-frame-3.svg"
     ],
     "links": [
-      { "label": "Breakdown", "url": "#" },
-      { "label": "Contact", "url": "/contact" }
+      {
+        "label": "Breakdown",
+        "url": "#"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact"
+      }
     ],
     "featured": true,
     "quickFacts": {
       "role": "Creative Director",
       "timeline": "2 weeks",
-      "deliverables": ["45s trailer", "Mood board", "Prompt bible"]
+      "deliverables": [
+        "45s trailer",
+        "Mood board",
+        "Prompt bible"
+      ]
     }
   },
   {
@@ -64,28 +98,46 @@
     "slug": "founders-in-motion",
     "published": false,
     "category": "Branded",
-    "tags": ["Tool-agnostic", "Runway", "Narrative Ads"],
+    "tags": [
+      "Tool-agnostic",
+      "Runway",
+      "Narrative Ads"
+    ],
     "year": 2025,
     "thumbnailImage": "/projects/founders-thumb.svg",
     "heroMediaType": "image",
     "heroMediaUrl": "/projects/founders-hero.svg",
     "shortDescription": "Brand story campaign that translates founder interviews into cinematic story ads.",
     "longDescription": "We transformed founder voice notes into a visual campaign with consistent tone and brand texture. This project focused on repeatability: one pipeline, multiple ad variants, no drop in narrative quality.\n\nThe final system lets teams spin new ads quickly while preserving production value.",
-    "tools": ["Runway", "ElevenLabs", "Premiere Pro"],
+    "tools": [
+      "Runway",
+      "ElevenLabs",
+      "Premiere Pro"
+    ],
     "gallery": [
       "/projects/founders-frame-1.svg",
       "/projects/founders-frame-2.svg",
       "/projects/founders-frame-3.svg"
     ],
     "links": [
-      { "label": "Watch", "url": "#" },
-      { "label": "Client Page", "url": "#" }
+      {
+        "label": "Watch",
+        "url": "#"
+      },
+      {
+        "label": "Client Page",
+        "url": "#"
+      }
     ],
     "featured": true,
     "quickFacts": {
       "role": "Producer + Pipeline Designer",
       "timeline": "10 days",
-      "deliverables": ["3 hero ads", "6 variant edits", "Style kit"]
+      "deliverables": [
+        "3 hero ads",
+        "6 variant edits",
+        "Style kit"
+      ]
     }
   },
   {
@@ -94,25 +146,43 @@
     "slug": "ai-for-real-life-classroom",
     "published": false,
     "category": "Educational",
-    "tags": ["Tutorial", "Prompt Systems", "Workflow"],
+    "tags": [
+      "Tutorial",
+      "Prompt Systems",
+      "Workflow"
+    ],
     "year": 2026,
     "thumbnailImage": "/projects/classroom-thumb.svg",
     "heroMediaType": "image",
     "heroMediaUrl": "/projects/classroom-hero.svg",
     "shortDescription": "Educational visual series showing practical AI production workflows for creators.",
     "longDescription": "This content system teaches creators how to move from random prompting to structured production. We designed each lesson around outcomes, not tools.\n\nThe result is a repeatable curriculum that helps teams generate realistic, continuity-safe work faster.",
-    "tools": ["Veo 3", "Kling", "Notion", "Figma"],
+    "tools": [
+      "Veo 3",
+      "Kling",
+      "Notion",
+      "Figma"
+    ],
     "gallery": [
       "/projects/classroom-frame-1.svg",
       "/projects/classroom-frame-2.svg",
       "/projects/classroom-frame-3.svg"
     ],
-    "links": [{ "label": "Download Guide", "url": "#" }],
+    "links": [
+      {
+        "label": "Download Guide",
+        "url": "#"
+      }
+    ],
     "featured": false,
     "quickFacts": {
       "role": "Instructor + Systems Builder",
       "timeline": "Ongoing",
-      "deliverables": ["Lesson modules", "Prompt templates", "Checklists"]
+      "deliverables": [
+        "Lesson modules",
+        "Prompt templates",
+        "Checklists"
+      ]
     }
   },
   {
@@ -121,25 +191,42 @@
     "slug": "memory-of-water",
     "published": false,
     "category": "Experimental",
-    "tags": ["Abstract", "Higgsfield", "Sound Design"],
+    "tags": [
+      "Abstract",
+      "Higgsfield",
+      "Sound Design"
+    ],
     "year": 2024,
     "thumbnailImage": "/projects/water-thumb.svg",
     "heroMediaType": "image",
     "heroMediaUrl": "/projects/water-hero.svg",
     "shortDescription": "Experimental short exploring fluid transformations with tightly art-directed prompts.",
     "longDescription": "A visual poem built around transitions that feel physically plausible, even when surreal. The project served as an R&D space for motion continuity and texture behavior.\n\nFindings from this experiment now feed directly into branded and narrative client work.",
-    "tools": ["Higgsfield", "After Effects", "Audition"],
+    "tools": [
+      "Higgsfield",
+      "After Effects",
+      "Audition"
+    ],
     "gallery": [
       "/projects/water-frame-1.svg",
       "/projects/water-frame-2.svg",
       "/projects/water-frame-3.svg"
     ],
-    "links": [{ "label": "Watch", "url": "#" }],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "#"
+      }
+    ],
     "featured": false,
     "quickFacts": {
       "role": "Director + Editor",
       "timeline": "7 days",
-      "deliverables": ["90s short", "Sound mix", "Frame pack"]
+      "deliverables": [
+        "90s short",
+        "Sound mix",
+        "Frame pack"
+      ]
     }
   },
   {
@@ -148,142 +235,242 @@
     "slug": "launch-day-signal",
     "published": false,
     "category": "Branded",
-    "tags": ["TikTok", "Short-form", "Conversion"],
+    "tags": [
+      "TikTok",
+      "Short-form",
+      "Conversion"
+    ],
     "year": 2026,
     "thumbnailImage": "/projects/launch-thumb.svg",
     "heroMediaType": "image",
     "heroMediaUrl": "/projects/launch-hero.svg",
     "shortDescription": "Short-form product launch campaign tuned for retention and conversion.",
     "longDescription": "We built this project around one objective: move from scroll to action in under five seconds. Scripts, visuals, and cuts were all iterated against retention checkpoints.\n\nThe final package balances creative edge with measurable marketing outcomes.",
-    "tools": ["Veo 3", "CapCut", "Midjourney"],
+    "tools": [
+      "Veo 3",
+      "CapCut",
+      "Midjourney"
+    ],
     "gallery": [
       "/projects/launch-frame-1.svg",
       "/projects/launch-frame-2.svg",
       "/projects/launch-frame-3.svg"
     ],
     "links": [
-      { "label": "Watch", "url": "#" },
-      { "label": "Breakdown", "url": "#" }
+      {
+        "label": "Watch",
+        "url": "#"
+      },
+      {
+        "label": "Breakdown",
+        "url": "#"
+      }
     ],
     "featured": false,
     "quickFacts": {
       "role": "Creative Strategist",
       "timeline": "5 days",
-      "deliverables": ["Hook library", "3 ad cuts", "Performance notes"]
+      "deliverables": [
+        "Hook library",
+        "3 ad cuts",
+        "Performance notes"
+      ]
     }
   },
   {
     "id": "proj-007",
-    "title": "Gotta Be a Place (Part 1)",
+    "title": "Act 2 - Maiden Voyage Prequel (Teaser)",
     "slug": "gotta-be-a-place-part-1",
     "published": true,
     "category": "Music Video",
-    "tags": ["Music Video", "Original Work", "Cinematic"],
-    "year": 2026,
+    "tags": [
+      "Original Work",
+      "Cinematic",
+      "Concept"
+    ],
+    "year": 2025,
     "heroMediaType": "video",
     "heroMediaUrl": "https://player.vimeo.com/video/1134315019",
     "shortDescription": "Music video sample built for cinematic mood, pacing, and emotional continuity.",
     "longDescription": "Part 1 sample for the \"Gotta Be a Place\" music video concept.\n\nThis project is published as the second live video on the portfolio and is ready for updated thumbnail, full breakdown copy, and final links.",
-    "tools": ["Creative Direction", "AI Video Pipeline", "Post Production"],
+    "tools": [
+      "Creative Direction",
+      "AI Video Pipeline",
+      "Post Production"
+    ],
     "gallery": [
       "/projects/founders-frame-1.svg",
       "/projects/founders-frame-2.svg",
       "/projects/founders-frame-3.svg"
     ],
-    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134315019" }],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "https://vimeo.com/1134315019"
+      }
+    ],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
       "timeline": "In Progress",
-      "deliverables": ["Music video sample", "Horizontal master"]
+      "deliverables": [
+        "Music video sample",
+        "Horizontal master"
+      ]
     }
   },
   {
     "id": "proj-008",
-    "title": "The Kevin Edmonds Music Video Project",
+    "title": "Maiden Voyage Prequel(Finalish)",
     "slug": "the-kevin-edmonds-music-video-project-v1",
     "published": true,
     "category": "Music Video",
-    "tags": ["Client Work", "Music Video", "Likeness Project"],
+    "tags": [
+      "Original",
+      "Cinematic",
+      "Concept",
+      "Likeness Project"
+    ],
     "year": 2025,
     "heroMediaType": "video",
     "heroMediaUrl": "https://player.vimeo.com/video/1134311666",
     "shortDescription": "Client music video project from mid-2025 focused on early AI realism and character consistency.",
     "longDescription": "This project was created in June and July of 2025 for a client who reached out and asked me to produce a music video using their likeness.\n\nIt represents a snapshot of where my AI video skills and the available technology were at that time.\n\nThe main challenges were maintaining character consistency and achieving realism, both of which were just starting to become possible with AI tools back then.",
-    "tools": ["AI Video Pipeline", "Creative Direction", "Post Production"],
+    "tools": [
+      "AI Video Pipeline",
+      "Creative Direction",
+      "Post Production"
+    ],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134311666" }],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "https://vimeo.com/1134311666"
+      }
+    ],
     "featured": true,
     "quickFacts": {
       "role": "Director + Prompt Engineer",
       "timeline": "June-July 2025",
-      "deliverables": ["Music video master", "Client-facing revisions"]
+      "deliverables": [
+        "Music video master",
+        "Client-facing revisions"
+      ]
     }
   },
   {
     "id": "proj-009",
-    "title": "The Last of My Kind (Short)",
+    "title": "The Last of My Kind Music Video Short",
     "slug": "the-last-of-my-kind-music-video-short-v1",
     "published": true,
     "category": "Music Video",
-    "tags": ["Music Video", "R&D", "Lip Sync"],
+    "tags": [
+      "Music Video",
+      "R&B",
+      "Lip Sync",
+      "Likeness Project"
+    ],
     "year": 2025,
     "heroMediaType": "video",
     "heroMediaUrl": "https://player.vimeo.com/video/1134309592",
     "shortDescription": "September 2025 creative test focused on first/last frame control, lip-sync, and consistent AI character storytelling.",
     "longDescription": "This music video sample was created in September 2025 as a creative test of emerging AI video tools.\n\nThe focus was on exploring first and last frame generation, improving lip-sync performance, and experimenting with storytelling through consistent AI characters.\n\nIt served as both a technical study and a creative experiment to see how these features could be used to bring emotion and realism into AI-driven music videos.",
-    "tools": ["AI Video Pipeline", "Lip-Sync Workflow", "Creative Direction"],
+    "tools": [
+      "AI Video Pipeline",
+      "Lip-Sync Workflow",
+      "Creative Direction"
+    ],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134309592" }],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "https://vimeo.com/1134309592"
+      }
+    ],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
       "timeline": "September 2025",
-      "deliverables": ["Music video short", "R&D test output"]
+      "deliverables": [
+        "Music video short",
+        "R&D test output"
+      ]
     }
   },
   {
     "id": "proj-010",
-    "title": "Maiden Voyage Prequel (Finalish) v1",
+    "title": "Gotta Be a Place (Part 1) Music Video Sample",
     "slug": "maiden-voyage-prequel-finalish-v1",
     "published": true,
     "category": "Music Video",
-    "tags": ["Music Video", "In Progress", "Description Pending"],
-    "year": 2026,
+    "tags": [
+      "Music Video"
+    ],
+    "year": 2025,
     "heroMediaType": "video",
     "heroMediaUrl": "https://player.vimeo.com/video/1134303800",
     "shortDescription": "Description pending: add final project summary.",
     "longDescription": "Description note: final project description still needs to be written.\n\nTODO: Add full narrative overview, production context, and key creative/technical learnings.",
-    "tools": ["AI Video Pipeline", "Creative Direction", "Post Production"],
+    "tools": [
+      "AI Video Pipeline",
+      "Creative Direction",
+      "Post Production"
+    ],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134303800" }],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "https://vimeo.com/1134303800"
+      }
+    ],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
       "timeline": "In Progress",
-      "deliverables": ["Music video master", "Final description pending"]
+      "deliverables": [
+        "Music video master",
+        "Final description pending"
+      ]
     }
   },
   {
     "id": "proj-011",
-    "title": "Maiden Voyage: Act 2 (Teaser) v1",
+    "title": "The Kevin Edmonds Music Video Project",
     "slug": "act-2-maiden-voyage-prequel-teaser-v1",
     "published": true,
     "category": "Music Video",
-    "tags": ["Work in Progress", "Sora 2", "Veo 3.1"],
-    "year": 2026,
+    "tags": [
+      "Music Video",
+      "Client Work",
+      "Likeness Project"
+    ],
+    "year": 2025,
     "heroMediaType": "video",
     "heroMediaUrl": "https://player.vimeo.com/video/1134299601",
     "shortDescription": "Current work-in-progress teaser for Maiden Voyage: Act 2 using Sora 2 and Veo 3.1.",
     "longDescription": "This is a current work-in-progress teaser for Maiden Voyage: Act 2.\n\nIt blends some of the newest AI video technologies, including Sora 2 and Veo 3.1, to explore creative techniques and cinematic storytelling.\n\nThis version serves as an experimental mashup to push the boundaries of realism, emotion, and motion in AI video.\n\nThe full project is still in development, with dialogue scenes and expanded storytelling coming soon.",
-    "tools": ["Sora 2", "Veo 3.1", "AI Video Pipeline", "Creative Direction"],
+    "tools": [
+      "Sora 2",
+      "Veo 3.1",
+      "AI Video Pipeline",
+      "Creative Direction"
+    ],
     "gallery": [],
-    "links": [{ "label": "Watch", "url": "https://vimeo.com/1134299601" }],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "https://vimeo.com/1134299601"
+      }
+    ],
     "featured": true,
     "quickFacts": {
       "role": "Director + Editor",
       "timeline": "In Progress",
-      "deliverables": ["Teaser cut", "Dialogue scenes (upcoming)", "Expanded story edit (upcoming)"]
+      "deliverables": [
+        "Teaser cut",
+        "Dialogue scenes (upcoming)",
+        "Expanded story edit (upcoming)"
+      ]
     }
   }
 ]

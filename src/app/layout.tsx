@@ -6,21 +6,21 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lazylabai.studio"),
-  title: "Lazy Lab AI Studio | Cinematic AI Storytelling",
+  title: "Lazy Motion Labs AI Studio | Cinematic AI Storytelling",
   description:
-    "Lazy Lab AI Studio builds cinematic AI storytelling for trailers, music videos, branded stories, and production-ready prompt systems.",
+    "Lazy Motion Labs AI Studio builds cinematic AI storytelling for trailers, music videos, branded stories, and production-ready prompt systems.",
   openGraph: {
-    title: "Lazy Lab AI Studio | Cinematic AI Storytelling",
+    title: "Lazy Motion Labs AI Studio | Cinematic AI Storytelling",
     description:
       "Story-first cinematic AI production with continuity, realism, and production-minded creative direction.",
     url: "/",
-    siteName: "Lazy Lab AI Studio",
+    siteName: "Lazy Motion Labs AI Studio",
     images: [
       {
         url: "/projects/neon-pulse-thumb.svg",
         width: 1200,
         height: 630,
-        alt: "Lazy Lab AI Studio showcase"
+        alt: "Lazy Motion Labs AI Studio showcase"
       }
     ],
     type: "website"
@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className="antialiased" suppressHydrationWarning>
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />

@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,9 +8,10 @@ import type { Project } from "@/types/project";
 type ProjectCardProps = {
   project: Project;
   large?: boolean;
+  onTagClick?: (tag: string) => void;
 };
 
-export default function ProjectCard({ project, large = false }: ProjectCardProps) {
+export default function ProjectCard({ project, large = false, onTagClick }: ProjectCardProps) {
   const hasThumbnail = Boolean(project.thumbnailImage && project.thumbnailImage.trim().length > 0);
   const useVideoFallback = !hasThumbnail && project.heroMediaType === "video";
 
@@ -71,10 +74,17 @@ export default function ProjectCard({ project, large = false }: ProjectCardProps
           <p className="mt-2 text-sm text-[color:var(--neutral-300)]">{project.shortDescription}</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          {project.tags.slice(0, 3).map((tag) => (
-            <span key={tag} className="rounded-full border border-white/15 px-2.5 py-1 text-xs text-[color:var(--neutral-200)]">
+          {project.tags.map((tag) => (
+            <button
+              key={tag}
+              type="button"
+              onClick={() => onTagClick?.(tag)}
+              className={`rounded-full border border-white/15 px-2.5 py-1 text-xs text-[color:var(--neutral-200)] ${
+                onTagClick ? "cursor-pointer hover:border-[color:var(--coral-500)]/60 hover:text-[color:var(--coral-400)]" : ""
+              }`}
+            >
               {tag}
-            </span>
+            </button>
           ))}
         </div>
         <div className="flex gap-2 text-sm">

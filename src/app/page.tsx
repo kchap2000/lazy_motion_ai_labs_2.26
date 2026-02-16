@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import PortfolioGrid from "@/components/portfolio-grid";
 import ProjectCard from "@/components/project-card";
@@ -31,7 +32,7 @@ export default function Home() {
       <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-8 md:p-12">
         <div className="absolute -right-10 top-10 h-40 w-40 rounded-full bg-[color:var(--coral-500)]/20 blur-3xl" />
         <Reveal>
-          <p className="mb-5 text-xs uppercase tracking-[0.24em] text-[color:var(--neutral-300)]">Lazy Motion Lab AI Studio</p>
+          <p className="mb-5 text-xs uppercase tracking-[0.24em] text-[color:var(--neutral-300)]">Lazy Motion Labs AI Studio</p>
           <h1 className="hero-title max-w-3xl font-display text-4xl leading-tight text-[color:var(--neutral-50)] md:text-6xl">
             Cinematic AI storytelling, built like real production.
           </h1>
@@ -103,12 +104,24 @@ export default function Home() {
 
       <Reveal>
         <section className="grid gap-6 rounded-3xl border border-white/10 bg-white/5 p-8 md:grid-cols-[1fr_1.5fr] md:p-10">
-          <div className="h-56 rounded-2xl border border-white/10 bg-[linear-gradient(145deg,#1b2b4e,#0c1734)]" />
+          <div className="relative h-56 overflow-hidden rounded-2xl border border-white/10 md:h-full">
+            <Image
+              src="/projects/outgrow-your-world-thumb.png"
+              alt="Cinematic studio still"
+              fill
+              sizes="(max-width: 768px) 100vw, 35vw"
+              className="object-cover"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[color:var(--navy-950)]/70 via-transparent to-transparent" />
+            <div className="absolute bottom-3 left-3 rounded-full border border-white/30 bg-black/30 px-3 py-1 text-[10px] uppercase tracking-[0.12em] text-[color:var(--neutral-50)]">
+              Studio Still
+            </div>
+          </div>
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-[color:var(--neutral-300)]">About The Studio</p>
             <h2 className="mt-2 font-display text-3xl text-[color:var(--neutral-50)]">We build with story discipline, not prompt chaos.</h2>
             <p className="mt-4 text-base leading-7 text-[color:var(--neutral-300)]">
-              Lazy Lab AI Studio translates cinematic instincts into practical AI production systems. Every project starts with narrative intent,
+              Lazy Motion Labs AI Studio translates cinematic instincts into practical AI production systems. Every project starts with narrative intent,
               then moves through a tool-agnostic pipeline built for repeatability and believable output.
             </p>
             <Link className="mt-6 inline-block text-sm text-[color:var(--coral-500)] hover:text-[color:var(--coral-400)]" href="/about">

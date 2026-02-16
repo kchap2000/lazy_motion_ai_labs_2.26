@@ -14,6 +14,10 @@ type PortfolioGridProps = {
 export default function PortfolioGrid({ projects, categories, tags }: PortfolioGridProps) {
   const [categoryFilter, setCategoryFilter] = useState<string>("All");
   const [tagFilter, setTagFilter] = useState<string>("All");
+  const applyTagFilter = (tag: string) => {
+    setCategoryFilter("All");
+    setTagFilter(tag);
+  };
 
   const filteredProjects = useMemo(() => {
     return projects.filter((project) => {
@@ -66,7 +70,7 @@ export default function PortfolioGrid({ projects, categories, tags }: PortfolioG
       ) : (
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard key={project.id} project={project} onTagClick={applyTagFilter} />
           ))}
         </div>
       )}
