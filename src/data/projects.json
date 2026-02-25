@@ -472,5 +472,40 @@
         "Expanded story edit (upcoming)"
       ]
     }
+  },
+  {
+    "id": "proj-012",
+    "title": "The Switch Trailer for Malachi Burke - September 2025",
+    "slug": "the-switch-trailer-for-malachi-burke-september-2025",
+    "published": true,
+    "category": "Music Video",
+    "tags": [
+      "Music Video"
+    ],
+    "year": 2025,
+    "heroMediaType": "video",
+    "heroMediaUrl": "https://www.youtube.com/embed/O3U3Ukndz9U",
+    "shortDescription": "Portfolio entry added. Description and detailed breakdown can be expanded later.",
+    "longDescription": "Description pending: add final creative and production notes for this project.",
+    "tools": [
+      "AI Video Pipeline",
+      "Creative Direction",
+      "Post Production"
+    ],
+    "gallery": [],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "https://youtu.be/O3U3Ukndz9U"
+      }
+    ],
+    "featured": false,
+    "quickFacts": {
+      "role": "Director + Editor",
+      "timeline": "September 2025",
+      "deliverables": [
+        "Trailer cut"
+      ]
+    }
   }
 ]
