@@ -507,5 +507,44 @@
         "Trailer cut"
       ]
     }
+  },
+  {
+    "id": "proj-013",
+    "title": "Life of the Lazy Man — S1 E1 (Prequel)",
+    "slug": "life-of-the-lazy-man-s1e1-prequel",
+    "published": true,
+    "category": "Vertical Series",
+    "tags": [
+      "Vertical Series",
+      "Original Work",
+      "Kling",
+      "Short Form"
+    ],
+    "year": 2026,
+    "heroMediaType": "video",
+    "heroMediaUrl": "https://www.youtube.com/embed/JstuzpoJ49Q",
+    "shortDescription": "Season 1, Episode 1 of the Life of the Lazy Man vertical series — a prequel episode built for the short-form vertical format that's redefining how stories get told.",
+    "longDescription": "This is Season 1, Episode 1 of the Life of the Lazy Man vertical series — and the prequel that sets it all in motion.\n\nThe vertical series format is one of the fastest-growing storytelling mediums right now, built natively for how people actually consume content. This project leans into that shift, using Kling to craft a cinematic episode designed specifically for the 9:16 screen.\n\nThis prequel establishes the world, the character, and the tone for everything that follows in the series.",
+    "tools": [
+      "Kling",
+      "Creative Direction",
+      "AI Video Pipeline"
+    ],
+    "gallery": [],
+    "links": [
+      {
+        "label": "Watch",
+        "url": "https://youtube.com/shorts/JstuzpoJ49Q"
+      }
+    ],
+    "featured": true,
+    "quickFacts": {
+      "role": "Director + Prompt Engineer",
+      "timeline": "2026",
+      "deliverables": [
+        "Vertical episode",
+        "9:16 master cut"
+      ]
+    }
   }
 ]
